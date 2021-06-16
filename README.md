@@ -71,7 +71,8 @@ Er is 1 serviceklasse : **AnimalService**
       Is het argument = null, dan worden alle beschikbare dieren geretourneerd.  
       Is het argument != null - is er m.a.w. wel een type meegeleverd - dan worden enkel de dieren die tot dat type behoren geretourneerd.   
        
-De GUI is uiteraard door mij geprogrammeerd, maar ik laat het aan jullie over om zelf even de code te doorlopen : deze is vrij voor de hand liggend ...  
+De GUI is uiteraard door mij al geprogrammeerd, maar ik laat het aan jullie over om zelf even de code te doorlopen : deze is vrij voor de hand liggend ...  
+Er is trouwens hier en daar extra commentaar toegevoegd op de plaatsen waar ik bij jullie PE opdrachten een aantal fouten gezien heb ...
 
 
     
