@@ -14,7 +14,7 @@ namespace Pra.DemoTypes.Core.Entities
             set
             {
                 if (value > 9) value = 9;
-                lives = 9;
+                lives = value;
             }
         }
         public Cat(string name, Gender gender, DateTime? dateOfBirth, byte lives = 9)

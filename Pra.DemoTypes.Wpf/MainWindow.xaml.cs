@@ -46,6 +46,7 @@ namespace Pra.DemoTypes.Wpf
         }
         private void PopulateAnimals()
         {
+            ClearControls();
             // cmbFilter is gevuld met objecten van het "type" Type  ... we moeten dus casten naar Type
             // dit mag NULL opleveren : onze methode GetAnimals kan immers overweg met een argument dat de waarde Null heeft ...
             Type typeFilter = (Type)cmbFilter.SelectedItem;
@@ -65,6 +66,7 @@ namespace Pra.DemoTypes.Wpf
 
         private void cmbFilter_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
             PopulateAnimals();
         }
 

@@ -25,7 +25,8 @@ namespace Pra.DemoTypes.Core.Services
             animals.Add(new Cat("Monster", Gender.Onbekend, null, 5));
             animals.Add(new Dog("Sam", Gender.Mannelijk, new DateTime(2005, 5, 1), 3, "Border Collie"));
             animals.Add(new Dog("Pipa", Gender.Vrouwelijk, new DateTime(2020, 11, 29), 0, "Parson Russel"));
-            //animals = animals.OrderBy(a => a.GetType()).ThenBy(a => a.Name).ToList();
+            animals = animals.OrderBy(a => a.GetType().Name).ThenBy(a => a.Name).ToList();
+            //animals = animals.OrderBy(a => a.Name).ToList();
         }
 
         // we bieden een lijst aan met alle types van dieren die we hebben : uiteraard zal dit Cat en Dog zijn, maar het zouden er ook veel meer kunnen zijn ...

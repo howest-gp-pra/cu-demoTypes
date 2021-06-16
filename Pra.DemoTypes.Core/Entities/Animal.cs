@@ -9,7 +9,7 @@ namespace Pra.DemoTypes.Core.Entities
         private string name;
         public string Name
         {
-            get { return Name; }
+            get { return name; }
             set
             {
                 // beveiliging van je data via de setter van je prop laten gebeuren, niet via de constructor
@@ -43,7 +43,7 @@ namespace Pra.DemoTypes.Core.Entities
         {
             Name = name;  //Prop Name vullen en NIET private variabele name zodat de beveiliging van de setter zeker wordt uitgevoerd
             Gender = gender;
-            DateOfBirth = DateOfBirth;
+            DateOfBirth = dateOfBirth;
         }
 
         public override string ToString()
